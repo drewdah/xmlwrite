@@ -6,8 +6,8 @@ Takes an XML input file in a predefined format, parses query string values and w
 # Installation
 
 * Clone repository into local folder and navigate to it
-* Run `npm install` to grab the dependencies
+* Run `npm install -g` to grab the dependencies and make the `xmlwrite` command available from any directory
 
 # Usage
 
-`node xmlwrite.js -f YOUR_FILENAME.XML`
+`xmlwrite -f YOUR_FILENAME.XML`

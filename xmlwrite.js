@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var fs = require('fs');
 var parser = require('xml2json');
 var qString = require('querystring');
