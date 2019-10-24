@@ -9,7 +9,7 @@ program.option('-f, --file <string>', 'Path to input file');
 program.parse(process.argv);
 
 if(program.file) {
-    fs.readFile(xmlPath, function(err, data) {
+    fs.readFile(program.file, function(err, data) {
         var json = JSON.parse(parser.toJson(data, {reversible: true, sanitize: true}));
 
         json.testResults.httpSample.forEach(function(httpSample){
