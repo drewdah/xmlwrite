@@ -1,0 +1,17 @@
+{
+  "name": "xmlwrite",
+  "version": "1.0.0",
+  "description": "Writes XML query paramters back to XML doc",
+  "bin": {
+    "xmlwrite": "xmlwrite.js"
+  },
+  "keywords": [
+    "CLI"
+  ],
+  "author": "Drew Lawton",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^3.0.2",
+    "xml2json": "^0.11.2"
+  }
+}

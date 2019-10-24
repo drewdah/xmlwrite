@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+    </requestHeader>
+    <responseData class="java.lang.String"></responseData>
+    <cookies class="java.lang.String"></cookies>
+    <method class="java.lang.String">POST</method>
+    <queryString class="java.lang.String">herp=1&amp;derp=2&amp;smerp=3</queryString>
+    <java.net.URL>http://derp.com</java.net.URL>
+</httpSample>
+<httpSample>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+    </requestHeader>
+    <responseData class="java.lang.String"></responseData>
+    <cookies class="java.lang.String"></cookies>
+    <method class="java.lang.String">POST</method>
+    <queryString class="java.lang.String">nerp=1&amp;flerp=2&amp;merp=3</queryString>
+    <java.net.URL>http://derp.com</java.net.URL>
+</httpSample>
+<httpSample>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+    </requestHeader>
+    <responseData class="java.lang.String"></responseData>
+    <cookies class="java.lang.String"></cookies>
+    <method class="java.lang.String">POST</method>
+    <queryString class="java.lang.String">ferp=1&amp;terp=2&amp;werp=3</queryString>
+    <java.net.URL>http://derp.com</java.net.URL>
+</httpSample>
